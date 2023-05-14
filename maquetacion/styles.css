@@ -165,6 +165,13 @@ button {
 
 /* ============= EQUIPO ============= */
 
+.equipo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em 0;
+}
+
 .equipo-integrante{
     background-color: white; 
     width: 14em; 
