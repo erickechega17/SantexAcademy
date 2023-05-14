@@ -163,6 +163,35 @@ button {
     line-height: 1.5em;
 }
 
+/* ============= EQUIPO ============= */
+
+.equipo-integrante{
+    background-color: white; 
+    width: 14em; 
+    height: 18em; 
+    border-radius: 15px 15px 15px 0;
+}
+
+.integrante-img {
+    width: 100%; 
+    border-radius: 15px 15px 0 0;
+}
+
+.integrante-texto {
+    text-align: center; 
+    line-height: 0.5em; 
+    margin: 2em 0;
+}
+
+.integrante-texto h2 {
+    font-size: 1.1em;
+}
+
+.integrante-texto p {
+    color: darkgrey; 
+    font-size: 0.9em;
+}
+
 /* ============= CONTACTO ============= */
 
 /* -------- TEXTOS -------- */
