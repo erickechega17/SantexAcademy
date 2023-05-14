@@ -12,19 +12,119 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="margin: 0;">
-    <div id="navbar">
-        <div id="navbar-left">
-            <img id="logo" src="technology-with-purpose.svg">
+    <div style="position: absolute; z-index: 1; width: 100%; background-color: white;">
+            <div id="navbar">
+                <div id="navbar-left">
+                    <img id="logo" src="technology-with-purpose.svg">
+                </div>
+                <div id="navbar-right">
+                    <p>Nosotros</p>
+                    <p>Programas</p>
+                    <p>Capacitaciones</p>
+                    <p>Alianzas</p>
+                    <p>Contacto</p>
+                    <button>Sumate +</button>
+                </div>
+            </div>
+        <div>
+            <div id="introduccion">
+                <div id="introduccion-texto">
+                    <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+                </div>
+                <div id="introduccion-botones">
+                    <button style="width: 11.5em;" class="botones"><p>Contactanos</p><p style="font-size: 1.5em;">-></p></button>
+                    <button style="width: 9.1em; color: blueviolet;
+                    border-color: blueviolet;" class="botones"><p>Sumate</p><p style="font-size: 1.8em; font-weight: 700;">+</p></button>
+                </div>
+            </div>
         </div>
-        <div id="navbar-right">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capacitaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button>Sumate +</button>
+        <div id="impacto-back">
+            <div id="impacto-contenido" style="color:white">
+                <div id="impacto-left"><h1 style="font-size: 1.9em;">.Impacto</h1><p style="font-size: 0.9em; line-height: 1.4em;">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+                </div>
+                <div id="impacto-right">
+                    <div id="info-1"><h1>58</h1><p>Localidades</p></div>
+                    <div id="info-2"><h1><span style="color:blueviolet; font-weight: normal;
+                        font-size: 0.7em;">+</span>50</h1><p>Mentores</p></div>
+                    <div id="info-3"><h1>301</h1><p>Participantes</p></div>
+                </div>
+            </div>
         </div>
     </div>
-   
+    <div style="position: sticky; top: 0; z-index: 0;">
+        <img id="fondo-img" src="fondo-img.jpg" style="width: 100%;">
+    </div>
+    <div style="height: 1700px; width: 100%;">
+    </div>
+
+    <div style="position: absolute; z-index: 1; top: 1700px; background-color: white; width: 100%;">
+
+        <div class="programas-cont">
+            <div class="programas-left">
+                <h1 style="font-size: 1.8em; margin: 1em 0;">. Programas</h1>
+                <img class="programas-img1" src="img-oferta/programas-img.jpg">
+            </div>
+            <div class="programas-right">
+                <div class="right-contenido">
+                <img src="xacademy-img.svg" style="width: 12.5em;">
+                <p class="programas-textos">xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+                <button class="programas-boton">Más Info -></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="programas-cont">
+            <div class="programas-right">
+                <div class="right-contenido" style="margin: 0;">
+                <h1 class="programas-titulos">Robótica educativa: la tecnología del futuro</h1>
+                <p class="programas-textos">Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                <button class="programas-boton">Más Info -></button>
+                </div>
+            </div>
+            <div class="programas-left">
+                <img class="programas-img2" src="img-oferta/robotica-img.jpg">
+            </div>
+        </div>
+
+        <div class="programas-cont">
+            <div class="programas-left">
+                <h1 style="font-size: 1.8em; margin: 1em 0;">. Capacitaciones</h1>
+                <img class="programas-img1" src="img-oferta/estafas-img.jpg">
+            </div>
+            <div class="programas-right">
+                <div class="right-contenido">
+                <h1 class="programas-titulos">Estafas virtuales: ¿cómo protegernos?</h1>
+                <p class="programas-textos">Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+                <button class="programas-boton">Más Info -></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="programas-cont">
+            <div class="programas-right">
+                <div class="right-contenido" style="margin: 0;">
+                <h1 class="programas-titulos">Seguridad informática para infancias</h1>
+                <p class="programas-textos">¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p>
+                <button class="programas-boton">Más Info -></button>
+                </div>
+            </div>
+            <div class="programas-left">
+                <img class="programas-img2" src="img-oferta/seguridad-img.jpg">
+            </div>
+        </div>
+
+        <div style="background-color: lightgray;">
+            <div class="programas-cont">
+                <h1 style="font-size: 1.8em; margin: 1em 0;">. Equipo</h1>
+                <div>
+                    <div>
+                        <img src="img-equipo/juan.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

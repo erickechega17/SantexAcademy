@@ -6,13 +6,17 @@ html {
     font-size: 16px;
 }
 
-/* -------- NAVEGADOR -------- */
+/* ============== NAVBAR ============*/
 
 #navbar {
     display: flex; 
     border-bottom: 1px solid gray; 
     padding: 1.12em 20.25em; 
     justify-content:space-between;
+    background-color: white;
+    height: 2.7em;
+    position: sticky;
+    top: 0;
 }
 
 div#navbar-left img {
@@ -25,7 +29,7 @@ div#navbar-left img {
     padding-right: 80px;
 }
 
-#navbar p {
+#navbar-right p {
     margin-right: 2.8em;
     font-size: 0.8em;
     font-weight: 500;
@@ -36,13 +40,132 @@ button {
     border-radius: 30px;
     padding: 9px 1.25em;
     height: 3em;
+    width: 8.3em;
     border: 2px solid black;
     font-size: 0.75em;
     font-weight: 500;
-    width: 8.3em;
 }
 
-/* -------- TEXTO -------- */
+
+/* ============== HOME ===============*/
+
+/* -------- INTRODUCCION -------- */
+
+#introduccion {
+    margin: 75px 35%;
+}
+
+#introduccion-texto {
+    font-size: 0.85em;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+#introduccion-botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones {
+    margin: 20px 1em;
+    height: 3.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* -------- IMPACTO -------- */
+
+#impacto-back {
+    background-color: black;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+}
+
+#impacto-contenido {
+    display: flex;
+    width: 42%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#impacto-left {
+    width: 48%;
+}
+
+#impacto-right {
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#impacto-right h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#impacto-right p {
+    color: gray;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+}
+
+/* ============= PROGRAMAS Y CAPACITACIOKNES ============= */
+
+.programas-cont {
+    display: flex;
+    width: 65%;
+    margin: 3em 17%;
+    justify-content: space-between;
+
+}
+
+.programas-left {
+    width: 48%;
+}
+
+.programas-right {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programas-img1 {
+    border-radius: 0 40px 40px 40px;
+    width: 100%;
+}
+
+.programas-img2 {
+    border-radius: 40px 40px 0 40px;
+    width: 100%;
+}
+
+.right-contenido {
+    width: 80%;
+    margin-top: 6em;
+}
+
+.programas-boton {
+    margin: 0.5em 0;
+    height: 3.5em;
+    width: 9.5em;
+}
+
+.programas-titulos {
+    font-size: 1.3em;
+}
+
+.programas-textos {
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+/* ============= CONTACTO ============= */
+
+/* -------- TEXTOS -------- */
 
 #cont-textos {
     margin: 60px 320px;
